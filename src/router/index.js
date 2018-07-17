@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import TestComponent from '@/components/TestComponent'
+import ToDoComponent from '@/components/ToDO'
 
 Vue.use(Router)
 /* eslint-disable */
@@ -10,13 +10,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Todo',
+      component: ToDoComponent
     },
-    {
-      path: '/testComponent',
-      name: 'TestComponent',
-      component: TestComponent
-    }
   ]
 })

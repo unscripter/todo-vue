@@ -6,13 +6,9 @@ import { ADD_TODO, REMOVE_TODO, CHANGE_STATUS, FETCH_TODOS, TODO_STATUS, MARK_CO
 
 
 export default {
-  name: 'TestComponent',
+  name: 'ToDo',
   data () {
     return {
-      userInfo: {
-        name: 'Amit Mundra',
-        age: 30
-      },
       currentTodo: '',
       id: 0,
       status: 'all'
